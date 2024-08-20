@@ -1,4 +1,4 @@
-package models;
+package models.entities;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -6,7 +6,7 @@ import java.util.Date;
 public class Seller implements Serializable {
 
     private static final long serialVersionUID =  1L;
-    
+
     private Integer id;
     private String name;
     private String email;
@@ -106,5 +106,4 @@ public class Seller implements Serializable {
         return "Seller [id=" + id + ", name=" + name + ", email=" + email + ", birthDate=" + birthDate + ", baseSalary="
                 + baseSalary + ", department=" + department + "]";
     }
-    
 }

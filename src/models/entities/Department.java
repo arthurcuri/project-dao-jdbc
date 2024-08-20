@@ -1,4 +1,4 @@
-package models;
+package models.entities;
 
 import java.io.Serializable;
 
@@ -10,7 +10,7 @@ public class Department implements Serializable {
     private String name;
 
     public Department(){
-        
+
     }
 
     public Department(Integer id, String name){
